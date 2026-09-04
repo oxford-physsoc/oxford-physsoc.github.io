@@ -28,7 +28,8 @@ export default defineConfig({
 			input: {
 				main: resolve(__dirname, "index.html"),
 				events: resolve(__dirname, "events/index.html"),
-				contacts: resolve(__dirname, "contacts/index.html"),
+				sponsors: resolve(__dirname, "sponsors/index.html"),
+				committee: resolve(__dirname, "committee/index.html"),
 			}
 		}
 	}

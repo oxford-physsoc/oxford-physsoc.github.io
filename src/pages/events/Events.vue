@@ -1,67 +1,104 @@
 <script setup lang="ts">
 import App from "@/components/App.vue";
+
+import BackroundImage from "@/assets/backgrounds/background-termcard.png";
+
+import { TermCard } from "@/pages/events/term-card";
 </script>
 
 <template>
-	<App>
+	<App
+		:background-properties="{
+			'backgroundImg': BackroundImage,
+			'height': '0'
+		}"
+	>
+		<template #first-slot>
+			<h1>Term Card</h1>
+
+			<div id="term-card">
+				<div
+					v-for="(events, id) in TermCard"
+					:key="'term-card-entry-' + id"
+					class="c-term-card-entry"
+				>
+					<span class="c-term-card__week-text">W{{ id }}</span>
+					<div class="c-term-card__event-wrapper">
+						<div
+							v-for="event in events"
+							:key="event.name"
+							class="c-term-card__event"
+						>
+							{{ event.name }}
+							<br>
+							<i>{{ event.dateAndTime }}</i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</template>
 	</App>
 </template>
 
 <style scoped>
-.c-svg-container {
-	width: 100%;
-	max-width: 600px;
-	margin: auto;
+#term-card {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 1px solid white;
+	background: repeating-linear-gradient(45deg, #3336 0px, #4444 30px, #3336 60px);
+	backdrop-filter: blur(1px);
 }
 
-.c-svg-el {
-	width: 100%;
-}
-.c-central-line {
-	stroke-width: 5;
-	stroke: var(--colour-accent);
-}
-
-.c-central-line--time-spacing {
-	stroke-width: 5;
-	stroke: #e8ec0d;
-	stroke-linecap: round;
+.c-term-card-entry {
+	width: 400px;
+	display: flex;
+	align-items: center;
+	border: 1px solid white;
+	padding: 10px;
 }
 
-.c-event-point {
-	stroke-width: 6;
-	fill: var(--colour-background);
+.c-term-card-entry:nth-child(even) {
+	flex-direction: row-reverse;
 }
 
-.c-event-text {
-	max-width: calc(100% - 50px);
-	position: relative;
-	top: 50%;
-	left: 40px;
-	font-weight: 300;
-	text-shadow: none;
-	transform: translateY(-50%);
+.c-term-card-entry:nth-child(4n + 1) .c-term-card__week-text {
+	color: #828fe8;
 }
 
-.c-event-text__exclaim {
-	color: rgb(255, 127, 68);
-	position: relative;
-	display: inline-block;
-	font-size: 1.6em;
-	line-height: 0;
-	vertical-align: middle;
+.c-term-card-entry:nth-child(4n + 2) .c-term-card__week-text,
+.c-term-card-entry:nth-child(4n + 3) .c-term-card__week-text {
+	color: #ddd;
 }
 
-.c-event-text__exclaim::before {
-	content: "!";
-	position: absolute;
-	inset: 0;
-	animation: a-exclaim 1s infinite ease-out;
+.c-term-card-entry:nth-child(4n) .c-term-card__week-text {
+	color: #eccc75;
 }
 
-@keyframes a-exclaim {
-	0% { transform: scale(3); opacity: 0.8; }
-	80% { transform: scale(0.8); opacity: 0; }
-	100% { transform: scale(0.8); opacity: 0; }
+.c-term-card__week-text {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.c-term-card__event-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+	flex-grow: 1;
+	font-size: 1.3em;
+	line-height: 1.05;
+	gap: 0.5em;
+}
+
+.c-term-card__event-wrapper i {
+	font-size: 0.75em;
+	opacity: 0.8;
+}
+
+@media screen and (max-width: 850px) {
+	#term-card {
+		grid-template-columns: 1fr;
+	}
 }
 </style>

@@ -49,7 +49,7 @@ h1 {
 	text-align: center;
 }
 
-button, input[type="submit"] {
+button, input[type="submit"], .button {
 	border-radius: 8px;
 	border: 1px solid transparent;
 	padding: 1em 2em;
@@ -63,8 +63,10 @@ button, input[type="submit"] {
 	transition: background-color 0.25s, color 0.25s;
 	font: 1.1em Montserrat;
 	backdrop-filter: blur(2px);
+	text-align: center;
+	display: inline-block;
 }
-button:hover, input[type="submit"]:hover {
+button:hover, input[type="submit"]:hover, .button:hover {
 	background-color: white;
 	color: var(--colour-background);
 }
@@ -89,7 +91,7 @@ button:hover, input[type="submit"]:hover {
 		font-size: 3em;
 	}
 
-	button {
+	button, input[type="submit"], .button {
 		font-size: 0.9em;
 	}
 }

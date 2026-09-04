@@ -62,13 +62,6 @@
 		"import/newline-after-import": "warn",
 		"import/no-named-default": "warn",
 		"import/no-self-import": "warn",
-		"sort-imports": [
-			"warn",
-			{
-				"ignoreCase": true,
-				"allowSeparatedGroups": true
-			}
-		],
 		"no-console": "warn",
 		"no-template-curly-in-string": "warn",
 		"array-callback-return": "error",
@@ -103,6 +96,8 @@
 		"vue/no-v-html": "off",
 		"vue/no-multiple-template-root": "off",
 		"vue/no-setup-props-destructure": "off",
+		"vue/no-v-for-template-key": "off",
+		"vue/no-v-for-template-key-on-child": "error",
 		"no-empty-function": "error",
 		"no-eval": "error",
 		"no-extra-bind": "error",

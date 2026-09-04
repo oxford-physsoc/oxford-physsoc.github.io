@@ -6,7 +6,7 @@ import FbImg from "@/assets/icons/facebook.svg";
 import InstaImg from "@/assets/icons/instagram.svg";
 import MailImg from "@/assets/icons/mail.svg";
 
-import { Pages } from "@/database/page-list";
+import { Pages } from "@/pages/page-list";
 
 import { defineProps, ref } from "vue";
 
@@ -37,19 +37,26 @@ addEventListener("resize", () => {
 	maxLogoSize.value = Math.max(Math.min(innerWidth / 12, 60), 40);
 	if (innerWidth > 680) showMobileTabList.value = false;
 });
+
+const currentUrl = location.pathname;
 </script>
 
 <template>
 	<div
-		v-if="!props.hidden"
-		class="c-topbar"
+		:class="{
+			'c-topbar': true,
+			'c-topbar--fake': props.hidden
+		}"
 	>
 		<div class="c-topbar__tab-buttons">
 			<a
 				v-for="page in Pages"
 				:key="page.name"
 				:href="page.url"
-				class="c-topbar__tab-button"
+				:class="{
+					'c-topbar__tab-button': true,
+					'c-topbar__tab-button--current': page.url == currentUrl
+				}"
 			>{{ page.name }}</a>
 		</div>
 		<div class="c-topbar__title">
@@ -162,23 +169,6 @@ addEventListener("resize", () => {
 			</div>
 		</div>
 	</div>
-	<div
-		v-if="props.hidden"
-		class="c-topbar c-topbar--fake"
-	>
-		<div class="c-topbar__title">
-			<img
-				class="c-topbar__logo-image"
-			>
-		</div>
-		<div class="c-topbar__tab-buttons">
-			<a
-				v-for="page in Pages"
-				:key="page.name"
-				class="c-topbar__tab-button"
-			>{{ page.name }}</a>
-		</div>
-	</div>
 </template>
 
 <style scoped>
@@ -256,16 +246,22 @@ button {
 	position: relative;
 	width: 100%;
 	text-align: left;
+	padding-left: 10px;
 }
 
 .c-topbar__tab-button {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	min-width: 100px;
-	height: 50px;
+	min-width: 80px;
+	height: 35px;
 	text-decoration: none;
 	transition: color 0.1s, background-color 0.1s;
+	padding: 5px;
+}
+
+.c-topbar__tab-button--current {
+	text-decoration: underline;
 }
 
 .c-topbar__tab-button:hover {

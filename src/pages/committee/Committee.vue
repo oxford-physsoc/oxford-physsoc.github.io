@@ -10,13 +10,12 @@ import { CommitteeList } from "./committee-list";
 	<App
 		:background-properties="{
 			backgroundImg: CommitteeGroupPhoto,
-			height: '40vw',
+			height: '20vw',
 		}"
 	>
 		<template #first-slot>
 			<h1>Committee</h1>
 		</template>
-		For sponsorship and collaboration enquiries please contact us at oups.finances@gmail.com.
 		<div class="c-committee-list">
 			<template v-for="(infos, role) in CommitteeList">
 				<div

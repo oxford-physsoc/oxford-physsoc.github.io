@@ -52,6 +52,7 @@ import { CommitteeList } from "./committee-list";
 	box-sizing: content-box;
 	max-width: 700px;
 	width: auto;
+	margin-bottom: 50px;
 }
 
 .c-committee-list__entry {

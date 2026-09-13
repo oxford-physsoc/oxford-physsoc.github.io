@@ -77,6 +77,7 @@ window.addEventListener("resize", () => {
 	gap: 20px;
 	justify-content: space-evenly;
 	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 .c-display-card-content {

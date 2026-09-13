@@ -15,7 +15,7 @@ import CommitteeGroupPhoto from "@/assets/backgrounds/background-about.png";
 			<h1>Sponsors</h1>
 		</template>
 		<div class="c-content-card">
-			Our sponsorship packages are designed to introduce your organization to some of the most talented and motivated physics students across the UK. At OUPS, we view our sponsors as both clients and partners, and are committed to ensuring that each of our sponsors receives the greatest standard of service. Some benefits of being a sponsor include, but are not limited to: 
+			Our sponsorship packages are designed to introduce your organization to some of the most talented and motivated physics students across the UK. At OUPS, we view our sponsors as both clients and partners, and are committed to ensuring that each of our sponsors receives the greatest standard of service. Some benefits of being a sponsor include, but are not limited to:
 			<ul>
 				<li>Advertisements on our weekly newsletter of 1,600+ members, social media, and more</li>
 				<li>Access to our resume book</li>
@@ -27,11 +27,18 @@ import CommitteeGroupPhoto from "@/assets/backgrounds/background-about.png";
 				<a
 					href="mailto:oups.finances@gmail.com"
 					target="_blank"
-				>oups.finances@gmail.com</a> if you are interested in working with OUPS – we will be glad to send over our sponsorship packages and set up a call to discuss how we might best help your organization. 
+				>oups.finances@gmail.com</a> if you are interested in working with OUPS – we will be glad to send over our sponsorship packages and set up a call to discuss how we might best help your organization.
 			</span>
-			<br>
+			<span>
+				<br>
+				<br>
+			</span>
 			Our list of sponsors is still being finalised for the 26/27 academic year! Check back
 			for more.
+			<span>
+				<br>
+				<br>
+			</span>
 		</div>
 	</App>
 </template>

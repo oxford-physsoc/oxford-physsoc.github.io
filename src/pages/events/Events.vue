@@ -2,6 +2,7 @@
 import App from "@/components/App.vue";
 
 import BackroundImage from "@/assets/backgrounds/background-termcard.png";
+import TalksBackgroundImage from "@/assets/backgrounds/martin_wood.png";
 
 import { TermCard } from "@/pages/events/term-card";
 </script>
@@ -37,6 +38,20 @@ import { TermCard } from "@/pages/events/term-card";
 				</div>
 			</div>
 		</template>
+		<div
+			class="c-content-card"
+			:style="{
+				'background-image': `url(${TalksBackgroundImage})`,
+				'padding-bottom': '50px',
+				'background-position': '0 -450px',
+				'background-size': 'cover'
+			}"
+		>
+			<h1>Talks</h1>
+			Talks are our main event. They are hosted every Thursday in the Martin Wood Lecture Theatre in Clarendon Laboratory. They are free for everyone to join, member or non-member!
+			<br>
+			Talks are a great opportunity to be acquainted with topics of current research, as well as to get to know our professors more. This year we will be hosting several panel talks, so stay tuned!
+		</div>
 	</App>
 </template>
 

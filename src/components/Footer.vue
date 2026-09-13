@@ -14,7 +14,6 @@ import MailingList from "./MailingList.vue";
 	padding-bottom: 10px;
 	background-color: #0009;
 	width: 100%;
-	margin-top: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

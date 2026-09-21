@@ -5,6 +5,7 @@ import MenuImg from "@/assets/icons/menu.svg";
 import FbImg from "@/assets/icons/facebook.svg";
 import InstaImg from "@/assets/icons/instagram.svg";
 import MailImg from "@/assets/icons/mail.svg";
+import YtImg from "@/assets/icons/youtube.svg";
 
 import { Pages } from "@/pages/page-list";
 
@@ -48,17 +49,6 @@ const currentUrl = location.pathname;
 			'c-topbar--fake': props.hidden
 		}"
 	>
-		<div class="c-topbar__tab-buttons">
-			<a
-				v-for="page in Pages"
-				:key="page.name"
-				:href="page.url"
-				:class="{
-					'c-topbar__tab-button': true,
-					'c-topbar__tab-button--current': page.url == currentUrl
-				}"
-			>{{ page.name }}</a>
-		</div>
 		<div class="c-topbar__title">
 			<img
 				class="c-topbar__logo-image"
@@ -84,6 +74,15 @@ const currentUrl = location.pathname;
 			>
 				<img
 					:src="FbImg"
+				>
+			</a>
+			<a
+				href="https://www.youtube.com/@OxfordUniversityPhysicsSociety"
+				target="_blank"
+				class="c-topbar__social-button"
+			>
+				<img
+					:src="YtImg"
 				>
 			</a>
 			<a
@@ -122,20 +121,16 @@ const currentUrl = location.pathname;
 					class="c-topbar__logo-image"
 				>
 			</div>
-			<div class="c-topbar__tab-buttons">
-				<a
-					v-for="page in Pages"
-					:key="page.name"
-					class="c-topbar__tab-button"
-				>{{ page.name }}</a>
-			</div>
 		</div>
 		<div class="c-mobile-tab-buttons">
 			<a
 				v-for="page in Pages"
 				:key="page.name"
 				:href="page.url"
-				class="c-mobile-tab-button"
+				:class="{
+					'c-mobile-tab-button': true,
+					'c-topbar__tab-button--current': page.url == currentUrl
+				}"
 			>{{ page.name }}</a>
 
 			<div class="c-mobile-social-buttons">
@@ -158,6 +153,15 @@ const currentUrl = location.pathname;
 					>
 				</a>
 				<a
+					href="https://www.youtube.com/@OxfordUniversityPhysicsSociety"
+					target="_blank"
+					class="c-topbar__social-button"
+				>
+					<img
+						:src="YtImg"
+					>
+				</a>
+				<a
 					href="mailto:ouphyssoc@gmail.com"
 					target="_blank"
 					class="c-topbar__social-button"
@@ -169,6 +173,17 @@ const currentUrl = location.pathname;
 			</div>
 		</div>
 	</div>
+	<div
+		v-if="!props.hidden"
+		class="c-desktop-tab-list"
+	>
+		<a
+			v-for="page in Pages"
+			:key="page.name"
+			:href="page.url"
+			class="c-mobile-tab-button"
+		>{{ page.name }}</a>
+	</div>
 </template>
 
 <style scoped>
@@ -178,7 +193,7 @@ button {
 
 .c-topbar {
 	display: grid;
-	grid-template-columns: 1fr 370px 1fr;
+	grid-template-columns: auto 1fr;
 	align-items: center;
 	justify-content: flex-end;
 	position: fixed;
@@ -192,7 +207,7 @@ button {
 	background-position-y: 20%;
 	text-align: center;
 	backdrop-filter: blur(3px);
-	min-height: 100px;
+	height: 100px;
 }
 
 .c-topbar::before {
@@ -210,6 +225,7 @@ button {
 	position: static;
 	visibility: hidden;
 	width: 100vw;
+	flex-shrink: 0;
 }
 
 .c-topbar__title {
@@ -219,6 +235,8 @@ button {
 	color: #fffb;
 	text-shadow: 0 0 var(--colour-accent);
 	font-family: Montserrat;
+	margin-left: 30px;
+	text-align: left;
 }
 
 .c-topbar__title * {
@@ -242,31 +260,8 @@ button {
 	line-height: 0;
 }
 
-.c-topbar__tab-buttons {
-	position: relative;
-	width: 100%;
-	text-align: left;
-	padding-left: 10px;
-}
-
-.c-topbar__tab-button {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	min-width: 80px;
-	height: 35px;
-	text-decoration: none;
-	transition: color 0.1s, background-color 0.1s;
-	padding: 5px;
-}
-
 .c-topbar__tab-button--current {
 	text-decoration: underline;
-}
-
-.c-topbar__tab-button:hover {
-	background-color: var(--colour-text);
-	color: var(--colour-background);
 }
 
 .c-topbar__social-buttons {
@@ -308,6 +303,27 @@ button {
 	visibility: visible;
 	transform: none;
 	opacity: 1;
+}
+
+.c-desktop-tab-list {
+	position: fixed;
+	z-index: 4;
+	width: var(--sidebar-width);
+	height: 100%;
+	left: 0;
+	top: 100px;
+	background: linear-gradient(var(--colour-accent), transparent);
+}
+
+.c-desktop-tab-list::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background: var(--colour-background);
+	opacity: 0.5;
 }
 
 .c-mobile-tab-buttons {
@@ -356,6 +372,10 @@ button {
 	text-align: center;
 }
 
+.c-mobile-social-buttons .c-topbar__social-button {
+	width: 40px;
+}
+
 @media screen and (max-width: 750px) {
 	.c-topbar__title {
 		width: 100%;
@@ -374,6 +394,10 @@ button {
 	.c-topbar__social-buttons {
 		display: none;
 	}
+
+	.c-desktop-tab-list {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -383,10 +407,6 @@ button {
 
 	.c-topbar__logo-image {
 		width: 40px;
-	}
-
-	.c-topbar {
-		grid-template-columns: 1fr 300px 1fr;
 	}
 }
 </style>

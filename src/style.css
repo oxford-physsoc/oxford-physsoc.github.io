@@ -17,6 +17,7 @@
 	--colour-text: #ffffff;
 	--colour-background: #171a25;
 	--colour-accent-deep: #463c74;
+	--sidebar-width: 150px;
 }
 
 * {
@@ -84,6 +85,7 @@ button:hover, input[type="submit"]:hover, .button:hover {
 	align-items: center;
 	flex-direction: column;
 	width: 100vw;
+	border-left: var(--sidebar-width) solid transparent;
 }
 
 @media screen and (max-width: 750px) {
@@ -93,6 +95,10 @@ button:hover, input[type="submit"]:hover, .button:hover {
 
 	button, input[type="submit"], .button {
 		font-size: 0.9em;
+	}
+
+	:root {
+		--sidebar-width: 0;
 	}
 }
 

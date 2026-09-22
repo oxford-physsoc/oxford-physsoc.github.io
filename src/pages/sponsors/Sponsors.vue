@@ -36,7 +36,7 @@ import SponsorCard from "./SponsorCard.vue";
 		<template #first-slot>
 			<h1>Sponsors</h1>
 		</template>
-		<div class="c-content-card">
+		<div class="c-content-card c-content-card-sponsors">
 			Our sponsorship packages are designed to introduce your organization to some of the most talented and motivated physics students across the UK. At OUPS, we view our sponsors as both clients and partners, and are committed to ensuring that each of our sponsors receives the greatest standard of service. Some benefits of being a sponsor include, but are not limited to:
 			<ul>
 				<li>Advertisements on our weekly newsletter of 1,600+ members, social media, and more</li>
@@ -115,7 +115,7 @@ import SponsorCard from "./SponsorCard.vue";
 	text-align: justify;
 }
 
-h1 {
+.c-content-card-sponsors h1 {
 	font-size: 2em;
 }
 </style>

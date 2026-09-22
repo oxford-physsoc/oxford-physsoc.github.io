@@ -43,8 +43,9 @@ import { TermCard } from "@/pages/events/term-card";
 			:style="{
 				'background-image': `url(${TalksBackgroundImage})`,
 				'padding-bottom': '50px',
-				'background-position': '0 -450px',
-				'background-size': 'cover'
+				'background-position': 'center',
+				'background-size': 'cover',
+				'background-origin': 'border-box',
 			}"
 		>
 			<h1>Talks</h1>

@@ -312,7 +312,7 @@ button {
 	height: 100%;
 	left: 0;
 	top: 100px;
-	background: linear-gradient(var(--colour-accent), transparent);
+	background: linear-gradient(var(--colour-accent), transparent 250vh);
 }
 
 .c-desktop-tab-list::before {

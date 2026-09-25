@@ -17,5 +17,6 @@ import MailingList from "./MailingList.vue";
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-left: var(--sidebar-width) solid transparent;
 }
 </style>

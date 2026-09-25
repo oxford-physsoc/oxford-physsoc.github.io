@@ -30,6 +30,7 @@ export default defineConfig({
 				events: resolve(__dirname, "events/index.html"),
 				sponsors: resolve(__dirname, "sponsors/index.html"),
 				committee: resolve(__dirname, "committee/index.html"),
+				join: resolve(__dirname, "join/index.html"),
 			}
 		}
 	}

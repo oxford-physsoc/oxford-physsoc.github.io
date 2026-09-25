@@ -78,9 +78,7 @@ import SponsorCard from "./SponsorCard.vue";
 				Under the leadership of Chief Executive Officer and Chief Investment Officer Ryan Tolkin, Schonfeld unites disciplined investing with an entrepreneurial, collaborative culture. We apply decades of experience in our effort to capitalize on inefficiencies and opportunities in the markets, across asset classes and geographies.
 			</SponsorCard>
 			<SponsorCard :img="SquarepointImg">
-				Squarepoint dates back to 2000 and has evolved through Lehman Brothers and Barclays before becoming independent in December 2014.
-				<br>
-				We are committed to developing a world-class quantitative investment platform through our systematic, diversified approach. At Squarepoint, collaboration occurs across all teams, sharing investment ideas and promoting a culture of ownership and accountability. We pride ourselves on our deep expertise across Quantitative Investment Management, Technology and Trading Operations.
+				Squarepoint is a global investment management firm that utilizes a diversified portfolio of systematic and quantitative strategies across financial markets, seeking to achieve high quality, uncorrelated returns for our clients. We have deep expertise in trading, technology and operations and attribute our success to rigorous scientific research. As a technology and data-driven firm, we design and build our own cutting-edge systems, from high-performance trading platforms to large-scale data analysis and compute farms. With offices around the globe, we emphasize true global collaboration by aligning our investment, technology and operations teams functionally around the world
 			</SponsorCard>
 			<h1>Silver Sponsors</h1>
 			<SponsorCard :img="TPPImg">

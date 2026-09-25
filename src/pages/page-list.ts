@@ -18,4 +18,8 @@ export const Pages = [{
 {
 	url: "/sponsors/",
 	name: "Sponsors"
+},
+{
+	url: "/join/",
+	name: "Join us!"
 }] as const;

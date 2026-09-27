@@ -16,7 +16,7 @@ import { CommitteeList } from "./committee-list";
 		<template #first-slot>
 			<h1>Committee</h1>
 		</template>
-		<div class="c-committee-list">
+		<div class="c-committee-list c-content-card">
 			<template v-for="(infos, role) in CommitteeList">
 				<div
 					v-for="info in (infos instanceof Array ? infos : [infos])"
@@ -36,14 +36,8 @@ import { CommitteeList } from "./committee-list";
 </template>
 
 <style scoped>
-.c-content-card {
-	margin-top: 50px;
-	font-size: 20px;
-	text-align: justify;
-}
-
 .c-committee-list {
-	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: stretch;
 	justify-content: center;

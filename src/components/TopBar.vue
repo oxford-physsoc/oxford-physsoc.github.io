@@ -201,13 +201,14 @@ button {
 	left: 0;
 	z-index: 2;
 	width: 100%;
-	background: linear-gradient(transparent, var(--colour-accent));
+	background: linear-gradient(to left, transparent, var(--colour-accent));
 	/* Move the background upwards a little to make transparent effect instead of
 	a solid colour at the bottom and none at the top */
 	background-position-y: 20%;
 	text-align: center;
 	backdrop-filter: blur(3px);
 	height: 100px;
+	border-left: transparent solid var(--sidebar-width);
 }
 
 .c-topbar::before {
@@ -311,8 +312,8 @@ button {
 	width: var(--sidebar-width);
 	height: 100%;
 	left: 0;
-	top: 100px;
-	background: linear-gradient(var(--colour-accent), transparent 250vh);
+	top: 0;
+	background: linear-gradient(var(--colour-accent), var(--colour-accent) 30vh, black 250vh);
 }
 
 .c-desktop-tab-list::before {
@@ -377,6 +378,10 @@ button {
 }
 
 @media screen and (max-width: 750px) {
+	.c-topbar {
+		background: linear-gradient(transparent, var(--colour-accent));
+	}
+
 	.c-topbar__title {
 		width: 100%;
 		text-align: left;

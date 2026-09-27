@@ -45,7 +45,6 @@ import { TermCard } from "@/pages/events/term-card";
 				'padding-bottom': '50px',
 				'background-position': 'center',
 				'background-size': 'cover',
-				'background-origin': 'border-box',
 			}"
 		>
 			<h1>Talks</h1>
@@ -71,6 +70,7 @@ import { TermCard } from "@/pages/events/term-card";
 	align-items: center;
 	border: 1px solid white;
 	padding: 10px;
+	max-width: 80vw;
 }
 
 .c-term-card-entry:nth-child(even) {
@@ -112,7 +112,7 @@ import { TermCard } from "@/pages/events/term-card";
 	opacity: 0.8;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1050px) {
 	#term-card {
 		grid-template-columns: 1fr;
 	}

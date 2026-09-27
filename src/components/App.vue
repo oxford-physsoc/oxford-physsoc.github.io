@@ -44,6 +44,6 @@ const props = defineProps<{
 	padding-bottom: 70px;
 	position: relative;
 	background-color: var(--colour-accent-deep);
-	background-origin: border-box;
+	background-origin: padding-box;
 }
 </style>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import App from "@/components/App.vue";
 
-import CommitteeGroupPhoto from "@/assets/backgrounds/background-about.png";
+import SponsorPhoto from "@/assets/backgrounds/background-sponsors.png";
 
 // PLATINUM
 import JumpTradingImg from "@/assets/icons/sponsors/jump-trading.svg";
@@ -29,7 +29,7 @@ import SponsorCard from "./SponsorCard.vue";
 <template>
 	<App
 		:background-properties="{
-			backgroundImg: CommitteeGroupPhoto,
+			backgroundImg: SponsorPhoto,
 			height: '20vw',
 		}"
 	>
@@ -109,7 +109,6 @@ import SponsorCard from "./SponsorCard.vue";
 <style scoped>
 .c-content-card {
 	margin-top: 50px;
-	font-size: 20px;
 	text-align: justify;
 }
 

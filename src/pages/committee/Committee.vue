@@ -4,6 +4,8 @@ import App from "@/components/App.vue";
 import CommitteeGroupPhoto from "@/assets/backgrounds/background-about.png";
 
 import { CommitteeList } from "./committee-list";
+
+import Constitution from "@/assets/documents/standard-constitution-2016-17.pdf";
 </script>
 
 <template>
@@ -32,6 +34,20 @@ import { CommitteeList } from "./committee-list";
 				</div>
 			</template>
 		</div>
+		<div class="c-constitution-card c-content-card">
+			<h1>Constitution</h1>
+			<span>
+				We are governed as a society registered with the University of Oxford. You can view our constitution below.
+				<br>
+				<br>
+			</span>
+
+			<iframe
+				:src="Constitution"
+				width="100%"
+				height="600"
+			/>
+		</div>
 	</App>
 </template>
 
@@ -46,7 +62,6 @@ import { CommitteeList } from "./committee-list";
 	box-sizing: content-box;
 	max-width: 700px;
 	width: auto;
-	margin-bottom: 50px;
 }
 
 .c-committee-list__entry {
@@ -67,6 +82,12 @@ import { CommitteeList } from "./committee-list";
 .c-committee-list__entry h3 {
 	font-size: 1.4em;
 	margin-top: 10px;
+}
+
+.c-constitution-card {
+	border-bottom: 50px transparent solid;
+	text-align: center;
+	background-color: #99f3;
 }
 
 @media screen and (max-width: 750px) {

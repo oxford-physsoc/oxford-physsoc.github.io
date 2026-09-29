@@ -87,6 +87,11 @@ button:hover, input[type="submit"]:hover, .button:hover {
 	flex-direction: column;
 	width: 100vw;
 	border-left: var(--sidebar-width) solid transparent;
+	font-size: 20px;
+}
+
+.c-content-card h1 {
+	font-size: 3.6em;
 }
 
 @media screen and (max-width: 750px) {

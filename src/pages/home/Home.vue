@@ -65,7 +65,6 @@ window.addEventListener("resize", () => {
 <style scoped>
 .c-content-card {
 	margin-top: 50px;
-	font-size: 20px;
 	text-align: justify;
 }
 

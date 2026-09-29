@@ -41,7 +41,6 @@ import CommitteeGroupPhoto from "@/assets/backgrounds/background-about.png";
 <style scoped>
 .c-content-card {
 	margin: 50px 0;
-	font-size: 20px;
 	text-align: justify;
 }
 

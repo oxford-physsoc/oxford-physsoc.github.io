@@ -129,7 +129,7 @@ const currentUrl = location.pathname;
 				:href="page.url"
 				:class="{
 					'c-mobile-tab-button': true,
-					'c-topbar__tab-button--current': page.url == currentUrl
+					'c-mobile-tab-button--current': page.url == currentUrl
 				}"
 			>{{ page.name }}</a>
 
@@ -236,7 +236,7 @@ button {
 	color: #fffb;
 	text-shadow: 0 0 var(--colour-accent);
 	font-family: Montserrat;
-	margin-left: 30px;
+	margin-left: 15px;
 	text-align: left;
 }
 
@@ -259,10 +259,6 @@ button {
 	justify-self: end;
 	padding: 1.6em;
 	line-height: 0;
-}
-
-.c-topbar__tab-button--current {
-	text-decoration: underline;
 }
 
 .c-topbar__social-buttons {
@@ -367,6 +363,10 @@ button {
 	width: 100%;
 }
 
+.c-mobile-tab-button--current {
+	text-decoration: underline;
+}
+
 .c-mobile-social-buttons {
 	width: 100%;
 	padding-top: 10px;
@@ -407,11 +407,11 @@ button {
 
 @media screen and (max-width: 1000px) {
 	.c-topbar__title {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 
 	.c-topbar__logo-image {
-		width: 40px;
+		width: 35px;
 	}
 }
 </style>

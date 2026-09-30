@@ -24,7 +24,7 @@ export default defineConfig({
 		},
 	},
 	build: {
-		rolldownOptions: {
+		rollupOptions: {
 			input: {
 				main: resolve(__dirname, "index.html"),
 				events: resolve(__dirname, "events/index.html"),

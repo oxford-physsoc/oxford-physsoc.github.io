@@ -1,10 +1,14 @@
 <script setup lang="ts">
 import App from "@/components/App.vue";
+import EventDisplay from "./EventDisplay.vue";
 
 import BackroundImage from "@/assets/backgrounds/background-termcard.png";
 import TalksBackgroundImage from "@/assets/backgrounds/martin_wood.png";
 
-import { TermCard } from "@/pages/events/term-card";
+import { TermCard, EventEntry } from "@/pages/events/term-card";
+
+import { ref } from "vue";
+const selectedEvent = ref<undefined | EventEntry>(undefined);
 </script>
 
 <template>
@@ -28,7 +32,11 @@ import { TermCard } from "@/pages/events/term-card";
 						<div
 							v-for="event in events"
 							:key="event.name"
-							class="c-term-card__event"
+							:class="{
+								'c-term-card__event': true,
+								'c-term-card__event--clickable': event.clickable
+							}"
+							@click="event.clickable ? (selectedEvent = event) : false"
 						>
 							{{ event.name }}
 							<br>
@@ -38,6 +46,21 @@ import { TermCard } from "@/pages/events/term-card";
 				</div>
 			</div>
 		</template>
+		<div
+			class="c-content-card"
+			:style="{
+				'padding': '30px 0',
+			}"
+		>
+			<span>
+				↑ Click on an event above to see more details ↑
+				<br>
+			</span>
+			<EventDisplay
+				v-if="selectedEvent"
+				:event="selectedEvent"
+			/>
+		</div>
 		<div
 			class="c-content-card"
 			:style="{
@@ -112,9 +135,18 @@ import { TermCard } from "@/pages/events/term-card";
 	opacity: 0.8;
 }
 
+.c-term-card__event--clickable {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 @media screen and (max-width: 1050px) {
 	#term-card {
 		grid-template-columns: 1fr;
+	}
+	
+	.c-term-card__week-text {
+		font-size: 2em;
 	}
 }
 </style>

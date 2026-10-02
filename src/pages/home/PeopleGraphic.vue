@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from "vue";
 
-let interval1Id: number, interval2Id: number;
+let interval1Id: NodeJS.Timeout, interval2Id: NodeJS.Timeout;
 
 interface Face {
 	x: number,

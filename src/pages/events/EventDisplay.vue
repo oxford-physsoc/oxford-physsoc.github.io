@@ -9,8 +9,7 @@ const props = defineProps<{ event: EventEntry }>();
 <template>
 	<div class="c-event-display">
 		<h2>{{ props.event.name }}</h2>
-		<h3><i>{{ props.event.dateAndTime }}</i></h3>
-		<span>{{ props.event.description }}</span>
+		<span v-html="props.event.description" />
 	</div>
 </template>
 

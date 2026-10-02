@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref } from "vue";
 
-let intervalId: number;
+let intervalId: NodeJS.Timeout;
 
 const time = ref(0);
 onMounted(() => {

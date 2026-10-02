@@ -16,8 +16,12 @@ function selectEvent(event: EventEntry) {
 	selectedEvent.value = event;
 	requestAnimationFrame(() => {
 		if (!eventDisplayElement.value) return;
-		// eslint-disable-next-line @typescript-eslint/restrict-plus-operands
-		const Y = eventDisplayElement.value.scrollHeight + eventDisplayElement.value.offsetTop;
+		const Y = Math.min(
+			// eslint-disable-next-line @typescript-eslint/restrict-plus-operands, @typescript-eslint/no-unsafe-argument
+			eventDisplayElement.value.scrollHeight + eventDisplayElement.value.offsetTop,
+			// eslint-disable-next-line @typescript-eslint/restrict-plus-operands, @typescript-eslint/no-unsafe-argument
+			eventDisplayElement.value.scrollHeight + window.innerHeight
+		);
 		window.scrollTo(0, Y - window.innerHeight + 30);
 	});
 }
@@ -141,6 +145,7 @@ function selectEvent(event: EventEntry) {
 	font-size: 1.3em;
 	line-height: 1.05;
 	gap: 0.5em;
+	padding: 0 10px;
 }
 
 .c-term-card__event-wrapper i {

@@ -7,8 +7,20 @@ import TalksBackgroundImage from "@/assets/backgrounds/martin_wood.png";
 
 import { TermCard, EventEntry } from "@/pages/events/term-card";
 
-import { ref } from "vue";
+import { useTemplateRef, ref } from "vue";
+
 const selectedEvent = ref<undefined | EventEntry>(undefined);
+const eventDisplayElement = useTemplateRef("event-display");
+function selectEvent(event: EventEntry) {
+	if (!event.clickable) return;
+	selectedEvent.value = event;
+	requestAnimationFrame(() => {
+		if (!eventDisplayElement.value) return;
+		// eslint-disable-next-line @typescript-eslint/restrict-plus-operands
+		const Y = eventDisplayElement.value.scrollHeight + eventDisplayElement.value.offsetTop;
+		window.scrollTo(0, Y - window.innerHeight + 30);
+	});
+}
 </script>
 
 <template>
@@ -36,7 +48,7 @@ const selectedEvent = ref<undefined | EventEntry>(undefined);
 								'c-term-card__event': true,
 								'c-term-card__event--clickable': event.clickable
 							}"
-							@click="event.clickable ? (selectedEvent = event) : false"
+							@click="selectEvent(event)"
 						>
 							{{ event.name }}
 							<br>
@@ -47,9 +59,10 @@ const selectedEvent = ref<undefined | EventEntry>(undefined);
 			</div>
 		</template>
 		<div
+			ref="event-display"
 			class="c-content-card"
 			:style="{
-				'padding': '30px 0',
+				'margin': '30px 0',
 			}"
 		>
 			<span>
@@ -144,7 +157,7 @@ const selectedEvent = ref<undefined | EventEntry>(undefined);
 	#term-card {
 		grid-template-columns: 1fr;
 	}
-	
+
 	.c-term-card__week-text {
 		font-size: 2em;
 	}

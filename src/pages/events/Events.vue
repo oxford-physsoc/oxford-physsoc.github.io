@@ -100,8 +100,9 @@ function selectEvent(event: EventEntry) {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	border: 1px solid white;
-	background: repeating-linear-gradient(45deg, #3336 0px, #4444 30px, #3336 60px);
+	background: repeating-linear-gradient(45deg, #3338 0px, #4446 30px, #3338 60px);
 	backdrop-filter: blur(1px);
+	font-size: 18px;
 }
 
 .c-term-card-entry {

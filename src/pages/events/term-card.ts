@@ -62,7 +62,7 @@ export const TermCard: Record<string, EventEntry[]> = {
 		<h3>
 		Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>
-		Time: 04 Nov (Thu), 17:30
+		Time: 29 Oct (Thu), 17:30
 		</h3>`,
 		clickable: true,
 	}, {

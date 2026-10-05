@@ -20,7 +20,7 @@ function selectEvent(event: EventEntry) {
 			// eslint-disable-next-line @typescript-eslint/restrict-plus-operands, @typescript-eslint/no-unsafe-argument
 			eventDisplayElement.value.scrollHeight + eventDisplayElement.value.offsetTop,
 			// eslint-disable-next-line @typescript-eslint/restrict-plus-operands, @typescript-eslint/no-unsafe-argument
-			eventDisplayElement.value.scrollHeight + window.innerHeight
+			eventDisplayElement.value.offsetTop + window.innerHeight
 		);
 		window.scrollTo(0, Y - window.innerHeight + 30);
 	});

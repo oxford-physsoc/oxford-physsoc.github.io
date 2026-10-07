@@ -9,7 +9,7 @@ import YtImg from "@/assets/icons/youtube.svg";
 
 import { Pages } from "@/pages/page-list";
 
-import { defineProps, ref } from "vue";
+import { ref } from "vue";
 
 const props = defineProps<{
 	hidden?: boolean,

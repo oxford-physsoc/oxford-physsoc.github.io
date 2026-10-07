@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from "vue";
-
 import { EventEntry } from "./term-card";
 
 const props = defineProps<{ event: EventEntry }>();

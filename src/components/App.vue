@@ -2,7 +2,7 @@
 import Footer from "./Footer.vue";
 import TopBar from "./TopBar.vue";
 
-import { defineProps, StyleValue } from "vue";
+import { StyleValue } from "vue";
 
 const props = defineProps<{
 	backgroundProperties?: {

@@ -20,7 +20,7 @@ function selectEvent(event: EventEntry) {
 			// eslint-disable-next-line @typescript-eslint/restrict-plus-operands, @typescript-eslint/no-unsafe-argument
 			eventDisplayElement.value.scrollHeight + eventDisplayElement.value.offsetTop,
 			// eslint-disable-next-line @typescript-eslint/restrict-plus-operands, @typescript-eslint/no-unsafe-argument
-			eventDisplayElement.value.offsetTop + window.innerHeight
+			eventDisplayElement.value.offsetTop + window.innerHeight - 100
 		);
 		window.scrollTo(0, Y - window.innerHeight + 30);
 	});
@@ -88,7 +88,7 @@ function selectEvent(event: EventEntry) {
 			}"
 		>
 			<h1>Talks</h1>
-			Talks are our main event. They are hosted every Thursday in the Martin Wood Lecture Theatre in Clarendon Laboratory. They are free for everyone to join, member or non-member!
+			Talks are our main event. They are hosted every Thursday (usually) in the Martin Wood Lecture Theatre in Clarendon Laboratory. They are free for everyone to join, member or non-member!
 			<br>
 			Talks are a great opportunity to be acquainted with topics of current research, as well as to get to know our professors more. This year we will be hosting several panel talks, so stay tuned!
 		</div>

@@ -30,16 +30,22 @@ window.addEventListener("resize", () => {
 				<div class="c-pages-button-list">
 					<a
 						class="button"
-						href="https://buy.stripe.com/4gMbJ1cSK2JncqF6Mt9IQ01"
-						target="_blank"
+						href="/join/"
 					>
 						Join us!
 					</a>
 					<a
 						class="button"
-						href="/events"
+						href="/events/"
 					>
 						Events
+					</a>
+					<a
+						class="button"
+						href="https://www.redbubble.com/people/oxford-physsoc/shop"
+						target="_blank"
+					>
+						Merch
 					</a>
 				</div>
 			</div>
@@ -89,10 +95,12 @@ window.addEventListener("resize", () => {
 }
 
 .c-pages-button-list {
-	display: grid;
-	grid-template-columns: 200px 200px;
-	column-gap: 20px;
+	display: flex;
+	gap: 20px;
 	margin-top: 30px;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 }
 
 .button {

@@ -28,7 +28,7 @@ export const TermCard: Record<string, EventEntry[]> = {
 	2: [{
 		name: "Talk by Michael Berry",
 		dateAndTime: "Thursday 17:30 - 18:30",
-		description: `<h2>What we learn(ed) from the rainbows</h2>
+		description: `<h2>What we learn(ed) from rainbows</h2>
 		
 		<h3>Venue: TBD
 		<br>

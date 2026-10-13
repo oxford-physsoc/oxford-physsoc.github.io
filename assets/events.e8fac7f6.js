@@ -2,7 +2,7 @@ import{d as v,b as a,e as o,f as e,t as l,_ as b,r as k,l as w,h as p,w as y,u a
 		
 		<h3>Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>
-		Time: 15 Oct (Thu), 17:30</h3>`,clickable:!0},{name:"Discover Trading with Da Vinci",dateAndTime:"Friday",description:"Interested in a career in quantitative finance? One of our sponsors, Da Vinci, is holding a trading workshop; it is not an event to be missed!",clickable:!0},{name:"Ou est le Poulet",dateAndTime:"TBD",description:""}],2:[{name:"Talk by Michael Berry",dateAndTime:"Thursday 17:30 - 18:30",description:`<h2>What we learn(ed) from the rainbows</h2>
+		Time: 15 Oct (Thu), 17:30</h3>`,clickable:!0},{name:"Discover Trading with Da Vinci",dateAndTime:"Friday",description:"Interested in a career in quantitative finance? One of our sponsors, Da Vinci, is holding a trading workshop; it is not an event to be missed!",clickable:!0},{name:"Ou est le Poulet",dateAndTime:"TBD",description:""}],2:[{name:"Talk by Michael Berry",dateAndTime:"Thursday 17:30 - 18:30",description:`<h2>What we learn(ed) from rainbows</h2>
 		
 		<h3>Venue: TBD
 		<br>

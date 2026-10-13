@@ -85,7 +85,9 @@ import SponsorCard from "./SponsorCard.vue";
 				TPP is a world-leader in Digital Health. From apps enabling patients to manage their own care to comprehensive hospital solutions, TPP delivers technology that connects everyone involved in healthcare delivery. For over twenty years, we have been applying the most advanced technology to provide a safe and secure environment to deliver care. Our aim is to improve access to healthcare data, making sure it is available whenever and wherever it is needed. We want to help people make the best use of that data, to empower clinicians and citizens, and to create the healthcare systems of the future.
 			</SponsorCard>
 			<SponsorCard :img="DVImg">
-				A leading liquidity provider in financial markets worldwide with expertise in trading, hedging, risk management and technology.
+				Founded 20 years ago and headquartered in Chicago, the DV Group is a family of financial services firms with more than 600 people across North America, Europe and Asia. DV Trading is an independent proprietary trading firm that trades its own capital to provide liquidity to global markets, using diversified strategies across futures, options, equities, foreign exchange, fixed income and cryptocurrency.
+
+Right now, we're actively recruiting for 2027 Commodities Trading interns and Commodities Software Development interns.
 			</SponsorCard>
 			<h1>Bronze Sponsors</h1>
 			<SponsorCard :img="DaVinciImg">

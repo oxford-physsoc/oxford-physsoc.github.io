@@ -36,7 +36,7 @@ export const CommitteeList: Record<string, CommitteeMember | CommitteeMember[]> 
 		image: SocialSecretary2Image,
 	}],
 	"IT Officer": [{
-		name: "Edison Fu",
+		name: "ScarletFu",
 		image: ITOfficerImage,
 	}],
 	"Publicity Officer": [{

@@ -17,8 +17,11 @@ export const TermCard: Record<string, EventEntry[]> = {
 		clickable: true,
 	}, {
 		name: "Discover Trading with Da Vinci",
-		dateAndTime: "Friday",
-		description: `Interested in a career in quantitative finance? One of our sponsors, Da Vinci, is holding a trading workshop; it is not an event to be missed!`,
+		dateAndTime: "Friday 18:00 - 19:30",
+		description: `<h3>Venue: L2 @ Mathematical Institute
+		<br>
+		Time: 16 Oct (Fri), 18:00</h3>
+		Da Vinci is coming to Oxford for a workshop, and we'd love to see you there. We'll play trading games, work through some fun challenges, and network over drinks and pizza. Top performers will also have the chance to be fast-tracked in their recruitment process.`,
 		clickable: true,
 	}, {
 		name: "Ou est le Poulet",

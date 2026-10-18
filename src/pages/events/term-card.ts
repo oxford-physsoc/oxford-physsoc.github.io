@@ -22,8 +22,12 @@ export const TermCard: Record<string, EventEntry[]> = {
 		clickable: true,
 	}, {
 		name: "Ou est le Poulet",
-		dateAndTime: "TBD",
-		description: "",
+		dateAndTime: "Friday 19:30 - 23:00",
+		description: `<h3>Meet @ Radcliffe Camera
+		<br>
+		Time: 16 Oct (Fri), 19:30</h3>
+		A committee member dressed as a chicken will hide in an unknown bar. Teams will go on bar crawls, drinking at each bar the chicken is NOT at, and attempt to find him. When we find him there will be an OPEN TAB at the bar and PRIZES for the fastest teams!`,
+		clickable: true
 	}],
 	2: [{
 		name: "Talk by Michael Berry",
@@ -52,8 +56,13 @@ export const TermCard: Record<string, EventEntry[]> = {
 		clickable: true,
 	}, {
 		name: "STEM drinks",
-		dateAndTime: "TBD",
-		description: "",
+		dateAndTime: "Friday 19:00 - 22:00",
+		description: `<h3>
+		Venue: Cosy Club
+		<br>
+		Time: 23 Oct (Fri), 19:00 - 22:00
+		</h3>`,
+		clickable: true,
 	}],
 	3: [{
 		name: "Talk by Mitchell Yzer",

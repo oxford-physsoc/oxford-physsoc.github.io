@@ -121,7 +121,10 @@ export const TermCard: Record<string, EventEntry[]> = {
 	7: [{
 		name: "Talk by Jenny Barnes",
 		dateAndTime: "Thursday 17:30 - 18:30",
-		description: "A talk will happen at this time! Details to be confirmed.",
+		description: `<h2>How to organise a teaching lab</h2>
+		<h3>Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
+		<br>
+		Time: 12 Nov (Thu), 17:30</h3>`,
 	}, {
 		name: "Physics Cuppers",
 		dateAndTime: "TBD",

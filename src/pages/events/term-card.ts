@@ -58,12 +58,17 @@ export const TermCard: Record<string, EventEntry[]> = {
 	3: [{
 		name: "Talk by Mitchell Yzer",
 		dateAndTime: "Thursday 17:30 - 18:30",
-		description: `<h2>Details TBD</h2>
+		description: `<h2>Life in the Universe: The Past, Present, and Future of an Ever-Growing Search</h2>
 		<h3>
 		Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>
 		Time: 29 Oct (Thu), 17:30
-		</h3>`,
+		</h3>
+		<i> “Are we alone?” It is one of the biggest open questions in astronomy, and we are about to enter an era in which we will finally have the tools to try and find an answer. Solar system space missions to Mars, Venus, Titan, and the icy moons will deepen our understanding of the limits of habitability. Meanwhile, the search for biosignatures outside the solar system will truly kick into gear when the next generation of telescopes, including the Extremely Large Telescope (ELT), the Habitable Worlds Observatory (HWO), and the Large Interferometer for Exoplanets (LIFE), are pointed at our neighbouring exoplanets and start characterising their atmospheres. All the while, the Search for Extraterrestrial Intelligence (SETI) focuses on the detection of so-called technosignatures: signs of extraterrestrial technology, primarily through radio observations and astronomical anomaly detection. 
+
+
+While all three of these fields might have started out as small, niche, and independent research endeavours, they have since become much more mainstream and interconnected. My work lies at the boundary between two of these: I investigate whether we could use high-resolution spectroscopy with the ELT to search for the atmospheric signatures of the technosignature gases we are currently releasing into our own atmosphere. In this talk, I will discuss the past, present, and future of the search for life in the Universe, focusing on the challenges we face and how I try to overcome them in my own research. 
+</i>`,
 		clickable: true,
 	}, {
 		name: "Pumpkin carving",
@@ -131,10 +136,6 @@ export const TermCard: Record<string, EventEntry[]> = {
 		description: "",
 	}],
 	8: [{
-		name: "Talk #8",
-		dateAndTime: "Thursday 17:30 - 18:30",
-		description: `A talk will happen at this time! Details to be confirmed.`,
-	}, {
 		name: "Crewdate",
 		dateAndTime: "TBD",
 		description: "",

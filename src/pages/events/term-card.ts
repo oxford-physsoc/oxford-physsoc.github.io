@@ -30,7 +30,7 @@ export const TermCard: Record<string, EventEntry[]> = {
 		dateAndTime: "Thursday 17:30 - 18:30",
 		description: `<h2>What we learn(ed) from rainbows</h2>
 		
-		<h3>Venue: TBD
+		<h3>Venue: O'Reilly Theatre, Keble College
 		<br>
 		Time: 22 Oct (Thu), 17:30</h3>
 		<i>

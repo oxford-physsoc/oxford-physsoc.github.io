@@ -49,7 +49,7 @@ While all three of these fields might have started out as small, niche, and inde
 		</h3>
 		Happy Halloween! We\u2019re having a Pumpkin Carving social on the 31st @ Christchurch Research Centre \u2014 everyone is welcome! We will provide pumpkins, tools and snacks :)
 		<br>
-		Sign up <a href="https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1-dioB4dRuF5bexK88oZLay5EpIPBtEQ8sZOjK8Dx5os&e=AUAQZHb8GMQmZQrfuPTIb9Sn4QHITEc7QZ4SWFqL09WEbQDCWUdyEWXOmk8YG6vepWzt9oUAILIt6e72SbtdcKs0Kq-Xtk7zkA3j9amKUo_Doahe9RBfVFdeG15I5G8" target="_blank">here</a>!`}],4:[{name:"Talk from Jane Street",dateAndTime:"Tuesday 18:00 - 19:30",description:""},{name:"Talk by Aleks Kissinger",dateAndTime:"Wednesday 17:30 - 18:30",description:`<h2>Quantum fault-tolerance by construction</h2>
+		Sign up <a href="https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1-dioB4dRuF5bexK88oZLay5EpIPBtEQ8sZOjK8Dx5os&e=AUAQZHb8GMQmZQrfuPTIb9Sn4QHITEc7QZ4SWFqL09WEbQDCWUdyEWXOmk8YG6vepWzt9oUAILIt6e72SbtdcKs0Kq-Xtk7zkA3j9amKUo_Doahe9RBfVFdeG15I5G8" target="_blank">here</a>!`,clickable:!0}],4:[{name:"Talk from Jane Street",dateAndTime:"Tuesday 18:00 - 19:30",description:""},{name:"Talk by Aleks Kissinger",dateAndTime:"Wednesday 17:30 - 18:30",description:`<h2>Quantum fault-tolerance by construction</h2>
 		<h3>
 		Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>

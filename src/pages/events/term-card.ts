@@ -84,8 +84,16 @@ While all three of these fields might have started out as small, niche, and inde
 		clickable: true,
 	}, {
 		name: "Pumpkin carving",
-		dateAndTime: "TBD",
-		description: "",
+		dateAndTime: "Saturday 18:30 - 21:00",
+		description: `<h3>
+		Venue: Christchurch Research Centre
+		<br>
+		Time: 31 Oct (Sat), 18:30
+		</h3>
+		Happy Halloween! We’re having a Pumpkin Carving social on the 31st @ Christchurch Research Centre — everyone is welcome! We will provide pumpkins, tools and snacks :)
+		<br>
+		Sign up <a href="https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1-dioB4dRuF5bexK88oZLay5EpIPBtEQ8sZOjK8Dx5os&e=AUAQZHb8GMQmZQrfuPTIb9Sn4QHITEc7QZ4SWFqL09WEbQDCWUdyEWXOmk8YG6vepWzt9oUAILIt6e72SbtdcKs0Kq-Xtk7zkA3j9amKUo_Doahe9RBfVFdeG15I5G8" target="_blank">here</a>!`,
+		clickable: true
 	}],
 	4: [{
 		name: "Talk from Jane Street",

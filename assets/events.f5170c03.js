@@ -2,17 +2,17 @@ import{d as b,b as a,e as o,f as e,t as l,_ as v,r as w,l as k,h as p,w as f,u a
 		
 		<h3>Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>
-		Time: 15 Oct (Thu), 17:30</h3>`,clickable:!0},{name:"Discover Trading with Da Vinci",dateAndTime:"Friday 18:00 - 19:30",description:`<h3>Venue: L2 @ Mathematical Institute
+		Time: 15 Oct (Thu), 17:30 - 18:30</h3>`,clickable:!0},{name:"Discover Trading with Da Vinci",dateAndTime:"Friday 18:00 - 19:30",description:`<h3>Venue: L2 @ Mathematical Institute
 		<br>
-		Time: 16 Oct (Fri), 18:00</h3>
+		Time: 16 Oct (Fri), 18:00 - 19:30</h3>
 		Da Vinci is coming to Oxford for a workshop, and we'd love to see you there. We'll play trading games, work through some fun challenges, and network over drinks and pizza. Top performers will also have the chance to be fast-tracked in their recruitment process.`,clickable:!0},{name:"Ou est le Poulet",dateAndTime:"Friday 19:30 - 23:00",description:`<h3>Meet @ Radcliffe Camera
 		<br>
-		Time: 16 Oct (Fri), 19:30</h3>
+		Time: 16 Oct (Fri), 19:30 - 23:00</h3>
 		A committee member dressed as a chicken will hide in an unknown bar. Teams will go on bar crawls, drinking at each bar the chicken is NOT at, and attempt to find him. When we find him there will be an OPEN TAB at the bar and PRIZES for the fastest teams!`,clickable:!0}],2:[{name:"Talk by Michael Berry",dateAndTime:"Thursday 17:30 - 18:30",description:`<h2>What we learn(ed) from rainbows</h2>
 		
 		<h3>Venue: HB Allen Centre, Keble College
 		<br>
-		Time: 22 Oct (Thu), 17:30</h3>
+		Time: 22 Oct (Thu), 17:30 - 18:30</h3>
 		<i>
 		Sir Michael Berry is a theoretical physicist best known for the generalisation of the Berry phase.
 		<br><br>
@@ -36,7 +36,7 @@ import{d as b,b as a,e as o,f as e,t as l,_ as v,r as w,l as k,h as p,w as f,u a
 		<h3>
 		Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>
-		Time: 29 Oct (Thu), 17:30
+		Time: 29 Oct (Thu), 17:30 - 18:30
 		</h3>
 		<i> \u201CAre we alone?\u201D It is one of the biggest open questions in astronomy, and we are about to enter an era in which we will finally have the tools to try and find an answer. Solar system space missions to Mars, Venus, Titan, and the icy moons will deepen our understanding of the limits of habitability. Meanwhile, the search for biosignatures outside the solar system will truly kick into gear when the next generation of telescopes, including the Extremely Large Telescope (ELT), the Habitable Worlds Observatory (HWO), and the Large Interferometer for Exoplanets (LIFE), are pointed at our neighbouring exoplanets and start characterising their atmospheres. All the while, the Search for Extraterrestrial Intelligence (SETI) focuses on the detection of so-called technosignatures: signs of extraterrestrial technology, primarily through radio observations and astronomical anomaly detection. 
 
@@ -45,9 +45,9 @@ While all three of these fields might have started out as small, niche, and inde
 </i>`,clickable:!0},{name:"Pumpkin carving",dateAndTime:"Saturday 18:30 - 21:00",description:`<h3>
 		Venue: Christchurch Research Centre
 		<br>
-		Time: 31 Oct (Sat), 18:30
+		Time: 31 Oct (Sat), 18:30 - 21:00
 		</h3>
-		Happy Halloween! We\u2019re having a Pumpkin Carving social on the 31st @ Christchurch Research Centre \u2014 everyone is welcome! We will provide pumpkins, tools and snacks :)
+		Happy Halloween! We're having a Pumpkin Carving social on the 31st @ Christchurch Research Centre \u2014 everyone is welcome! We will provide pumpkins, tools and snacks :)
 		<br>
 		Sign up <a href="https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1-dioB4dRuF5bexK88oZLay5EpIPBtEQ8sZOjK8Dx5os&e=AUAQZHb8GMQmZQrfuPTIb9Sn4QHITEc7QZ4SWFqL09WEbQDCWUdyEWXOmk8YG6vepWzt9oUAILIt6e72SbtdcKs0Kq-Xtk7zkA3j9amKUo_Doahe9RBfVFdeG15I5G8" target="_blank">here</a>!`,clickable:!0}],4:[{name:"Talk from Jane Street",dateAndTime:"Tuesday 18:00 - 19:30",description:""},{name:"Talk by Aleks Kissinger",dateAndTime:"Wednesday 17:30 - 18:30",description:`<h2>Quantum fault-tolerance by construction</h2>
 		<h3>
@@ -58,9 +58,13 @@ While all three of these fields might have started out as small, niche, and inde
 		<i>Quantum data is extremely sensitive to noise. This has led to an increasingly widespread believe that quantum error correction and fault-tolerant quantum computation will be a crucial ingredient in the vast majority of useful quantum computations. I will talk about a recent approach to designing and working with fault-tolerant quantum circuits called "fault tolerance by construction". In this approach, you can specify a target quantum computation and transform it iteratively using special rules called fault equivalences, which preserve a computations behaviour under noise. We can define fault equivalences for circuits, but also for diagrams in the ZX calculus, a particularly useful tool for quantum circuit optimisation. After giving a flavour for what it's like working with the ZX calculus and explaining the basics of quantum fault tolerance, I will give some examples of calculations involving fault equivalences and survey some of the state of the art results and open problems in the area. This talk assumes no prior knowledge of quantum computing or quantum circuits.</i>`,clickable:!0},{name:"Bowling",dateAndTime:"TBD",description:""}],5:[{name:"Talk from Schonfeld",dateAndTime:"Wednesday",description:""},{name:"Talk by Simon Clark",dateAndTime:"Thursday 17:30 - 18:30",description:`<h2>Climate communication in the age of AI slop</h2>
 		<h3>Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>
-		Time: 12 Nov (Thu), 17:30</h3>
+		Time: 12 Nov (Thu), 17:30 - 18:30</h3>
 		<i>Talking about climate change is one of the most urgent necessities facing science today, yet we are facing an online environment increasingly hostile to quality information. How do we cut through the noise? How do you reach an audience with the facts, how do you get them to listen and - most importantly - to act on them? In this talk I'll reflect on my decade of experience as a climate communicator while trying not to think of all the trauma this lecture theatre inflicted on me.
 		</i>`,clickable:!0},{name:"Destress with OUPS",dateAndTime:"TBD",description:""}],6:[{name:"First-year lecturer panel discussion",dateAndTime:"Thursday 17:30 - 18:30",description:"A talk will happen at this time! Details to be confirmed."},{name:"Black tie dinner",dateAndTime:"TBD",description:""}],7:[{name:"Talk by Jenny Barnes",dateAndTime:"Thursday 17:30 - 18:30",description:`<h2>How to organise a teaching lab</h2>
 		<h3>Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>
-		Time: 12 Nov (Thu), 17:30</h3>`},{name:"Physics Cuppers",dateAndTime:"TBD",description:""}],8:[{name:"Crewdate",dateAndTime:"TBD",description:""}]},S={id:"term-card"},q={class:"c-term-card__week-text"},V={class:"c-term-card__event-wrapper"},O=["onClick"],H={ref:"event-display",class:"c-content-card",style:{margin:"30px 0"}},P=b({__name:"Events",setup(u){const n=w(void 0),i=k("event-display");function h(c){!c.clickable||(n.value=c,requestAnimationFrame(()=>{if(!i.value)return;const t=Math.min(i.value.scrollHeight+i.value.offsetTop,i.value.offsetTop+window.innerHeight-100);window.scrollTo(0,t-window.innerHeight+30)}))}return(c,t)=>(a(),p(_,{"background-properties":{backgroundImg:d(M),height:"0"}},{"first-slot":f(()=>[t[1]||(t[1]=e("h1",null,"Term Card",-1)),e("div",S,[(a(!0),o(g,null,y(d(F),(T,m)=>(a(),o("div",{key:"term-card-entry-"+m,class:"c-term-card-entry"},[e("span",q,"W"+l(m),1),e("div",V,[(a(!0),o(g,null,y(T,r=>(a(),o("div",{key:r.name,class:I({"c-term-card__event":!0,"c-term-card__event--clickable":r.clickable}),onClick:R=>h(r)},[s(l(r.name)+" ",1),t[0]||(t[0]=e("br",null,null,-1)),e("i",null,l(r.dateAndTime),1)],10,O))),128))])]))),128))])]),default:f(()=>[e("div",H,[t[2]||(t[2]=e("span",null,[s(" \u2191 Click on an event above to see more details \u2191 "),e("br")],-1)),n.value?(a(),p(B,{key:0,event:n.value},null,8,["event"])):A("",!0)],512),e("div",{class:"c-content-card",style:C({"background-image":`url(${d(D)})`,"padding-bottom":"50px","background-position":"center","background-size":"cover"})},[...t[3]||(t[3]=[e("h1",null,"Talks",-1),s(" Talks are our main event. They are hosted every Thursday (usually) in the Martin Wood Lecture Theatre in Clarendon Laboratory. They are free for everyone to join, member or non-member! ",-1),e("br",null,null,-1),s(" Talks are a great opportunity to be acquainted with topics of current research, as well as to get to know our professors more. This year we will be hosting several panel talks, so stay tuned! ",-1)])],4)]),_:1},8,["background-properties"]))}});const Q=v(P,[["__scopeId","data-v-0ce0032d"]]);L(Q).mount("#app");
+		Time: 26 Nov (Thu), 17:30 - 18:30</h3>`,clickable:!0},{name:"Physics Cuppers",dateAndTime:"TBD",description:""}],8:[{name:"Crewdate with the Invariants",dateAndTime:"Wednesday 21:00 - Late",description:`<h3>
+			Venue: Angrid Thai
+			<br>
+			Time: 02 Dec (Wed), 21:00 - Late
+		</h3>`,clickable:!0}]},S={id:"term-card"},q={class:"c-term-card__week-text"},V={class:"c-term-card__event-wrapper"},O=["onClick"],H={ref:"event-display",class:"c-content-card",style:{margin:"30px 0"}},P=b({__name:"Events",setup(u){const n=w(void 0),i=k("event-display");function h(c){!c.clickable||(n.value=c,requestAnimationFrame(()=>{if(!i.value)return;const t=Math.min(i.value.scrollHeight+i.value.offsetTop,i.value.offsetTop+window.innerHeight-100);window.scrollTo(0,t-window.innerHeight+30)}))}return(c,t)=>(a(),p(_,{"background-properties":{backgroundImg:d(M),height:"0"}},{"first-slot":f(()=>[t[1]||(t[1]=e("h1",null,"Term Card",-1)),e("div",S,[(a(!0),o(g,null,y(d(F),(T,m)=>(a(),o("div",{key:"term-card-entry-"+m,class:"c-term-card-entry"},[e("span",q,"W"+l(m),1),e("div",V,[(a(!0),o(g,null,y(T,r=>(a(),o("div",{key:r.name,class:I({"c-term-card__event":!0,"c-term-card__event--clickable":r.clickable}),onClick:R=>h(r)},[s(l(r.name)+" ",1),t[0]||(t[0]=e("br",null,null,-1)),e("i",null,l(r.dateAndTime),1)],10,O))),128))])]))),128))])]),default:f(()=>[e("div",H,[t[2]||(t[2]=e("span",null,[s(" \u2191 Click on an event above to see more details \u2191 "),e("br")],-1)),n.value?(a(),p(B,{key:0,event:n.value},null,8,["event"])):A("",!0)],512),e("div",{class:"c-content-card",style:C({"background-image":`url(${d(D)})`,"padding-bottom":"50px","background-position":"center","background-size":"cover"})},[...t[3]||(t[3]=[e("h1",null,"Talks",-1),s(" Talks are our main event. They are hosted every Thursday (usually) in the Martin Wood Lecture Theatre in Clarendon Laboratory. They are free for everyone to join, member or non-member! ",-1),e("br",null,null,-1),s(" Talks are a great opportunity to be acquainted with topics of current research, as well as to get to know our professors more. This year we will be hosting several panel talks, so stay tuned! ",-1)])],4)]),_:1},8,["background-properties"]))}});const Q=v(P,[["__scopeId","data-v-0ce0032d"]]);L(Q).mount("#app");

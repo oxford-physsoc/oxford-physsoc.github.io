@@ -13,14 +13,14 @@ export const TermCard: Record<string, EventEntry[]> = {
 		
 		<h3>Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>
-		Time: 15 Oct (Thu), 17:30</h3>`,
+		Time: 15 Oct (Thu), 17:30 - 18:30</h3>`,
 		clickable: true,
 	}, {
 		name: "Discover Trading with Da Vinci",
 		dateAndTime: "Friday 18:00 - 19:30",
 		description: `<h3>Venue: L2 @ Mathematical Institute
 		<br>
-		Time: 16 Oct (Fri), 18:00</h3>
+		Time: 16 Oct (Fri), 18:00 - 19:30</h3>
 		Da Vinci is coming to Oxford for a workshop, and we'd love to see you there. We'll play trading games, work through some fun challenges, and network over drinks and pizza. Top performers will also have the chance to be fast-tracked in their recruitment process.`,
 		clickable: true,
 	}, {
@@ -28,7 +28,7 @@ export const TermCard: Record<string, EventEntry[]> = {
 		dateAndTime: "Friday 19:30 - 23:00",
 		description: `<h3>Meet @ Radcliffe Camera
 		<br>
-		Time: 16 Oct (Fri), 19:30</h3>
+		Time: 16 Oct (Fri), 19:30 - 23:00</h3>
 		A committee member dressed as a chicken will hide in an unknown bar. Teams will go on bar crawls, drinking at each bar the chicken is NOT at, and attempt to find him. When we find him there will be an OPEN TAB at the bar and PRIZES for the fastest teams!`,
 		clickable: true
 	}],
@@ -39,7 +39,7 @@ export const TermCard: Record<string, EventEntry[]> = {
 		
 		<h3>Venue: HB Allen Centre, Keble College
 		<br>
-		Time: 22 Oct (Thu), 17:30</h3>
+		Time: 22 Oct (Thu), 17:30 - 18:30</h3>
 		<i>
 		Sir Michael Berry is a theoretical physicist best known for the generalisation of the Berry phase.
 		<br><br>
@@ -74,7 +74,7 @@ export const TermCard: Record<string, EventEntry[]> = {
 		<h3>
 		Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>
-		Time: 29 Oct (Thu), 17:30
+		Time: 29 Oct (Thu), 17:30 - 18:30
 		</h3>
 		<i> “Are we alone?” It is one of the biggest open questions in astronomy, and we are about to enter an era in which we will finally have the tools to try and find an answer. Solar system space missions to Mars, Venus, Titan, and the icy moons will deepen our understanding of the limits of habitability. Meanwhile, the search for biosignatures outside the solar system will truly kick into gear when the next generation of telescopes, including the Extremely Large Telescope (ELT), the Habitable Worlds Observatory (HWO), and the Large Interferometer for Exoplanets (LIFE), are pointed at our neighbouring exoplanets and start characterising their atmospheres. All the while, the Search for Extraterrestrial Intelligence (SETI) focuses on the detection of so-called technosignatures: signs of extraterrestrial technology, primarily through radio observations and astronomical anomaly detection. 
 
@@ -88,9 +88,9 @@ While all three of these fields might have started out as small, niche, and inde
 		description: `<h3>
 		Venue: Christchurch Research Centre
 		<br>
-		Time: 31 Oct (Sat), 18:30
+		Time: 31 Oct (Sat), 18:30 - 21:00
 		</h3>
-		Happy Halloween! We’re having a Pumpkin Carving social on the 31st @ Christchurch Research Centre — everyone is welcome! We will provide pumpkins, tools and snacks :)
+		Happy Halloween! We're having a Pumpkin Carving social on the 31st @ Christchurch Research Centre — everyone is welcome! We will provide pumpkins, tools and snacks :)
 		<br>
 		Sign up <a href="https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1-dioB4dRuF5bexK88oZLay5EpIPBtEQ8sZOjK8Dx5os&e=AUAQZHb8GMQmZQrfuPTIb9Sn4QHITEc7QZ4SWFqL09WEbQDCWUdyEWXOmk8YG6vepWzt9oUAILIt6e72SbtdcKs0Kq-Xtk7zkA3j9amKUo_Doahe9RBfVFdeG15I5G8" target="_blank">here</a>!`,
 		clickable: true
@@ -125,7 +125,7 @@ While all three of these fields might have started out as small, niche, and inde
 		description: `<h2>Climate communication in the age of AI slop</h2>
 		<h3>Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>
-		Time: 12 Nov (Thu), 17:30</h3>
+		Time: 12 Nov (Thu), 17:30 - 18:30</h3>
 		<i>Talking about climate change is one of the most urgent necessities facing science today, yet we are facing an online environment increasingly hostile to quality information. How do we cut through the noise? How do you reach an audience with the facts, how do you get them to listen and - most importantly - to act on them? In this talk I'll reflect on my decade of experience as a climate communicator while trying not to think of all the trauma this lecture theatre inflicted on me.
 		</i>`,
 		clickable: true,
@@ -149,15 +149,21 @@ While all three of these fields might have started out as small, niche, and inde
 		description: `<h2>How to organise a teaching lab</h2>
 		<h3>Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>
-		Time: 12 Nov (Thu), 17:30</h3>`,
+		Time: 26 Nov (Thu), 17:30 - 18:30</h3>`,
+		clickable: true
 	}, {
 		name: "Physics Cuppers",
 		dateAndTime: "TBD",
 		description: "",
 	}],
 	8: [{
-		name: "Crewdate",
-		dateAndTime: "TBD",
-		description: "",
+		name: "Crewdate with the Invariants",
+		dateAndTime: "Wednesday 21:00 - Late",
+		description: `<h3>
+			Venue: Angrid Thai
+			<br>
+			Time: 02 Dec (Wed), 21:00 - Late
+		</h3>`,
+		clickable: true,
 	}],
 };

@@ -112,8 +112,11 @@ While all three of these fields might have started out as small, niche, and inde
 		clickable: true,
 	}, {
 		name: "Bowling",
-		dateAndTime: "TBD",
-		description: "",
+		dateAndTime: "Friday 17:40",
+		description: `<h3>Venue: Hollywood Bowl Oxford
+		<br>
+		Time: 06 Nov (Fri), meet 17:40 in Central Oxford</h3>
+		Sign up through <a href="https://us.list-manage.com/13cdODk4krF?e=758d8a7da6&c2id=3444af50a8e31526cc3b3427fc2a1ef1" target="_blank">this form</a>!`,
 	}],
 	5: [{
 		name: "Talk from Schonfeld",

@@ -119,10 +119,6 @@ While all three of these fields might have started out as small, niche, and inde
 		Sign up through <a href="https://us.list-manage.com/13cdODk4krF?e=758d8a7da6&c2id=3444af50a8e31526cc3b3427fc2a1ef1" target="_blank">this form</a>!`,
 	}],
 	5: [{
-		name: "Talk from Schonfeld",
-		dateAndTime: "Wednesday",
-		description: "",
-	}, {
 		name: "Talk by Simon Clark",
 		dateAndTime: "Thursday 17:30 - 18:30",
 		description: `<h2>Climate communication in the age of AI slop</h2>
@@ -134,17 +130,25 @@ While all three of these fields might have started out as small, niche, and inde
 		clickable: true,
 	}, {
 		name: "Destress with OUPS",
-		dateAndTime: "TBD",
-		description: "",
+		dateAndTime: "Saturday 18:00 - 20:00",
+		description: `Destress with OUPS is back! Come along next Saturday for free pizza and snacks, free sponsor merch, and a variety of games.
+<br>
+Whether you come with friends or by yourself, Destress with OUPS is a great way to get to know other members. You can show your competitive side with our board games, your strategic side with a quick game of chess, or your mathematical (or reckless) side in a game of poker - no matter your preference there'll be a game for you.`,
+		clickable: true,
 	}],
 	6: [{
+		name: "Members' dinner",
+		dateAndTime: "Monday 18:45 - 21:00",
+		description: `We're thrilled to announce the 2026-27 Annual Members' Dinner!
+<br>
+The event will begin with a drinks reception in Corpus Christi's Rainolds Room, followed by a three-course dinner in the SCR Dining Room. Join fellow OUPS members for an evening of good food, lively conversation and great company within the halls of Corpus Christi College.
+<br>
+Further information, including payment details, will be sent by email once your place has been confirmed. Spaces are limited, so make sure to sign up soon via <a href='https://docs.google.com/forms/d/e/1FAIpQLSfI6e3srR3sU4dW7aU_wd-3z1JAf6ArO20xOAQO9xgbYn3Eeg/viewform' target='_blank'>this form</a>!`,
+		clickable: true,
+	}, {
 		name: "First-year lecturer panel discussion",
 		dateAndTime: "Thursday 17:30 - 18:30",
 		description: `A talk will happen at this time! Details to be confirmed.`,
-	}, {
-		name: "Black tie dinner",
-		dateAndTime: "TBD",
-		description: "",
 	}],
 	7: [{
 		name: "Talk by Jenny Barnes",

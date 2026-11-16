@@ -148,7 +148,22 @@ Further information, including payment details, will be sent by email once your 
 	}, {
 		name: "First-year lecturer panel discussion",
 		dateAndTime: "Thursday 17:30 - 18:30",
-		description: `A talk will happen at this time! Details to be confirmed.`,
+		description: `<h2>How to organise a teaching lab</h2>
+		<h3>Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
+		<br>
+		Time: 26 Nov (Thu), 17:30 - 18:30</h3>
+		We have a very exciting event this week, with the pleasure of welcoming four of your first-year lecturers to discuss physics at Oxford, how to get the most out of it, and where it can lead.
+<br><br>
+Prof Moritz Riede: Classical Mechanics 1 (Michaelmas)
+<br>
+Prof Todd Huffman: Circuit Theory (Michaelmas)
+<br>
+Prof Armin Reichold: Classical Mechanics 2 (Hilary)
+<br>
+Prof Hannah Christensen: Waves (Hilary)
+<br><br>
+Between lectures, problem sheets, tutorials and exams, first year can feel like a lot of separate subjects with very little explanation of how they connect. In this panel, four of your lecturers will discuss how first-year physics fits into the rest of the course, how to tackle problem sheets, tutorials and exams, and where a physics degree can take you, from CERN to start-ups to AI. The last 30 minutes will be a Q&A where you can ask them anything. The event is open to all years, but aimed at first-years.`,
+		clickable: true,
 	}],
 	7: [{
 		name: "Talk by Jenny Barnes",

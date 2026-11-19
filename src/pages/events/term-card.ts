@@ -149,7 +149,7 @@ Further information, including payment details, will be sent by email once your 
 		name: "First-year lecturer panel discussion",
 		dateAndTime: "Thursday 17:30 - 18:30",
 		description: `<h2>First-year lecturer panel discussion</h2>
-		<h3>Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
+		<h3>Venue: HB Allen Centre
 		<br>
 		Time: 26 Nov (Thu), 17:30 - 18:30</h3>
 		We have the pleasure of welcoming four of your first-year lecturers to discuss physics at Oxford, how to get the most out of it, and where it can lead!

@@ -117,6 +117,7 @@ While all three of these fields might have started out as small, niche, and inde
 		<br>
 		Time: 06 Nov (Fri), meet 17:40 in Central Oxford</h3>
 		Sign up through <a href="https://us.list-manage.com/13cdODk4krF?e=758d8a7da6&c2id=3444af50a8e31526cc3b3427fc2a1ef1" target="_blank">this form</a>!`,
+		clickable: true,
 	}],
 	5: [{
 		name: "Talk by Simon Clark",
@@ -171,12 +172,28 @@ Between lectures, problem sheets, tutorials and exams, first year can feel like 
 		description: `<h2>How to organise a teaching lab</h2>
 		<h3>Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
 		<br>
-		Time: 26 Nov (Thu), 17:30 - 18:30</h3>`,
+		Time: 26 Nov (Thu), 17:30 - 18:30</h3>
+		<i>All Physics students need to use the Teaching Laboratories during their degree but few people know how the magic happens behind the scenes.  Hear about the history of the labs, how we moved some of them over the summer and what we are trying to get students to learn by doing the practicals themselves.  I will also give a brief summary of how I personally ended up running the Teaching Labs.
+</i>`,
 		clickable: true
 	}, {
 		name: "Physics Cuppers",
-		dateAndTime: "TBD",
-		description: "",
+		dateAndTime: "Saturday 14:00 - 17:00",
+		description: `<h3>Venue: Christ Church Research Centre<br>
+Time: 28 Nov (Sat), 14:00 - 18:00
+Teams: 2-4 people (individuals welcome)
+Register via <a href="https://docs.google.com/forms/d/e/1FAIpQLSc70snxXrny__8ZI_KkKuDvWbYEF03E3kpx6Gwu4KovDpMETQ/viewform" target="_blank">this form</a>!!</h3>
+Sign up and compete within your college teams across four rounds, with the winning team taking home an engraved Physics Cuppers 2026-27 trophy!
+<br>
+Be prepared to battle against the other colleges in rounds of physics trivia, Fermi problems, Olympiad questions, and the experimental round, where you'll be tasked to design and build the tallest, best-looking tower you can from bamboo sticks, paper, and tape.
+<br>
+Cuppers is designed to be accessible for all. No matter your year or experience level, it'll be a great way to meet other physicists across the year groups, and have fun in light-hearted challenges within your college teams. Snacks will also be provided to fuel your hard work throughout.
+<br>
+Sign up with your college team through the link above. If you don't have a team yet, sign up individually and we'll help you find one.
+<br>
+We're excited to see you there!
+`,
+		clickable: true,
 	}],
 	8: [{
 		name: "Crewdate with the Invariants",

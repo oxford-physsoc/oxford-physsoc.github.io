@@ -170,7 +170,7 @@ Between lectures, problem sheets, tutorials and exams, first year can feel like 
 		name: "Talk by Jenny Barnes",
 		dateAndTime: "Thursday 17:30 - 18:30",
 		description: `<h2>How to organise a teaching lab</h2>
-		<h3>Venue: Martin Wood Lecture Theatre, Clarendon Laboratory
+		<h3>Venue: Shop Street Lecture Theatre, Jesus College
 		<br>
 		Time: 26 Nov (Thu), 17:30 - 18:30</h3>
 		<i>All Physics students need to use the Teaching Laboratories during their degree but few people know how the magic happens behind the scenes.  Hear about the history of the labs, how we moved some of them over the summer and what we are trying to get students to learn by doing the practicals themselves.  I will also give a brief summary of how I personally ended up running the Teaching Labs.
